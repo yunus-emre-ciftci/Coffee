@@ -1,7 +1,10 @@
+import java.util.ArrayList;
+
 public abstract class Coffee {
-    public abstract int sugarValue();
-    public abstract int milkValue();
-    public abstract int waterValue();
-    public abstract int coffeeValue();
+    public abstract int sugarValue(int value);
+    public abstract int milkValue(int value);
+    public abstract int waterValue(int value);
+    public abstract int coffeeValue(int value);
+
 
 }
